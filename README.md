@@ -1,78 +1,90 @@
-# 🚲 Bike Sales Analysis Dashboard - Power BI
+# 🚲 Bike Sales Analysis Dashboard – Power BI  
 
-This project leverages **Power BI** to analyze and visualize bike sales data across India. It aims to uncover key insights related to **mileage, resale value, depreciation, fuel efficiency**, and **regional trends** to support informed decision-making for buyers, sellers, and market analysts.
-
-## 📌 Project Objective
-
-- Clean, transform, and model bike sales data
-- Build an interactive Power BI dashboard for data exploration
-- Calculate custom metrics like **Efficiency Score** and **Resale Score**
-- Visualize trends based on brand, model, region, and ownership
-
-## 🧰 Tools & Technologies Used
-
-- **Power BI Desktop**
-- **Power Query Editor**
-- Microsoft Excel/CSV (Data Source)
-
-## 📊 Key Features
-
-- 📍 Brand & Model level filters with drill-downs
-- 📈 Sales, depreciation & mileage trends
-- 🎯 Efficiency and resale score gauges
-- 🗺️ Geographic analysis by Indian states
-- 📋 KPI cards for dynamic metrics
-
-## 🗃️ Dataset Overview
-
-The dataset includes:
-- Brand & Model
-- Engine Capacity (CC)
-- Mileage
-- Price & Resale Price
-- Year of Manufacture
-- Fuel Type & Ownership Type
-- Insurance, Location, and more
-
-🔸 **Source**: CSV file with ~2,900 records  
-🔸 **Scope**: Covers used bikes across various Indian states
-
-## ⚙️ Calculated Fields & Measures
-
-- `Efficiency Score = Mileage / Engine Capacity`
-- `Depreciation = Price - Resale Price`
-- `Resale Score = Resale Price / Original Price`
-- Average metrics by Brand, Model, and Region
+This project showcases an **interactive Bike Sales Analysis Dashboard** built with **Power BI**.  
+It explores bike sales data across India to uncover insights on **mileage, resale value, depreciation, fuel efficiency, and regional trends**—empowering buyers, sellers, and analysts with data-driven decisions.  
 
 ---
 
-## 📈 Dashboard Snapshots
+## 🎯 Objectives  
 
-https://drive.google.com/file/d/1v8ToGUO-F3DxANe5Xa7JUACJarTGVDqi/view?usp=sharing
-
-https://drive.google.com/file/d/1SdbyVTK0Rn79K44q2KtoyQpjB-Q5gOfp/view?usp=sharing
+- 🧹 Clean, transform, and model bike sales data  
+- 📊 Build an interactive Power BI dashboard for exploration  
+- ➕ Create custom KPIs like **Efficiency Score** and **Resale Score**  
+- 🌍 Visualize trends by **brand, model, region, and ownership**  
 
 ---
 
-## 🔮 Future Enhancements
+## 🛠 Tools & Technologies  
 
-- Live data integration from dealer portals
-- Predictive modeling for price trends
-- Expansion to electric bikes and scooters
-- Integration with online listing platforms
+- **Power BI Desktop**  
+- **Power Query Editor**  
+- **Microsoft Excel / CSV** (Data Source)  
 
+---
 
-## 📚 Learning & Reflection
+## 📌 Key Features  
 
-This project strengthened practical knowledge in:
-- Data modeling and transformation in Power BI  
-- Creating custom DAX measures for dynamic insights  
-- Building intuitive dashboards with drill-downs and slicers  
-- Applying business intelligence to real-world automotive data
+- 🔎 **Drill-down filters** for Brand & Model analysis  
+- 📈 **Trend visualizations** for sales, mileage, and depreciation  
+- 🎯 **Custom KPIs** – Efficiency Score & Resale Score  
+- 🗺 **Geographic insights** by Indian states  
+- 📋 **Dynamic KPI cards** for instant metrics  
 
+---
 
-# 🚲 Bike Sales Analysis Dashboard - Power BI
+## 🗂 Dataset Overview  
 
-**Personalized and adapted by Unmesh Patra**
+The dataset consists of ~2,900 records with the following attributes:  
 
-This project leverages **Power BI** to analyze and visualize bike sales data across India.
+- Brand & Model  
+- Engine Capacity (CC)  
+- Mileage  
+- Price & Resale Price  
+- Year of Manufacture  
+- Fuel Type & Ownership Type  
+- Insurance & Location  
+
+📌 **Source**: CSV dataset of used bikes across India  
+
+---
+
+## ⚙️ Key Calculations (DAX Measures)  
+
+- **Efficiency Score** = `Mileage / Engine Capacity`  
+- **Depreciation** = `Price - Resale Price`  
+- **Resale Score** = `Resale Price / Original Price`  
+- **Averages & KPIs** by Brand, Model, and Region  
+
+---
+
+## 📸 Dashboard Previews  
+
+🔗 [Snapshot 1](https://drive.google.com/file/d/1v8ToGUO-F3DxANe5Xa7JUACJarTGVDqi/view?usp=sharing)  
+🔗 [Snapshot 2](https://drive.google.com/file/d/1SdbyVTK0Rn79K44q2KtoyQpjB-Q5gOfp/view?usp=sharing)  
+
+---
+
+## 🔮 Future Enhancements  
+
+- 🔗 Live data integration from dealer portals  
+- 📊 Predictive modeling for price trends  
+- ⚡ Expansion to electric bikes & scooters  
+- 🌐 Integration with online listing platforms  
+
+---
+
+## 📚 Learning Outcomes  
+
+Through this project, I gained hands-on experience in:  
+
+- 🔧 **Data modeling & transformation** in Power BI  
+- 📐 Creating **custom DAX measures** for business KPIs  
+- 🎨 Designing **intuitive dashboards** with drill-downs & slicers  
+- 💡 Applying **business intelligence** to real-world automotive data  
+
+---
+
+## 👤 Author  
+
+**Unmesh Patra**  
+📌 Personalized adaptation of the **Bike Sales Analysis Dashboard** project  
